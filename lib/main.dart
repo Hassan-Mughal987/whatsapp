@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(), // You can customize this theme
-      home: WhatsAppInterface(),
+      home: Splash(),
     );
   }
 }
